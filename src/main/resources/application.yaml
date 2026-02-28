@@ -6,3 +6,4 @@ app:
     api:
       key: ${CURRENCY_API_KEY}
     baseUrl: ${CURRENCY_BASE_URL}
+    frontendUrl : ${FRONTEND_URL}

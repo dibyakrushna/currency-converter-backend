@@ -15,7 +15,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/currencies")
-@CrossOrigin("http://localhost:3000/")
+
+@CrossOrigin("${app.exchangerate.frontendUrl}")
 public class CurrencyConverterController {
     private final CurrencyConverterService currencyConverterService;
 
